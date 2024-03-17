@@ -1,12 +1,33 @@
+.HomePage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+
+
+
 .LeftFloat {
-  float: left;
   width: 50%;
   padding: 10px;
   text-align: center;
 }
-.HomePage{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+
+.RightFloat {
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+flex-direction: column;
+}
+.RightFloat Button{
+  width: 150px;
+  margin: 50px;
+}
+.Home h3{
+  padding-top: 16px;
+  text-align: center;
 }
